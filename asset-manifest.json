@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cammie/static/css/main.75d2249e.css",
-    "main.js": "/cammie/static/js/main.6c593529.js",
+    "main.js": "/cammie/static/js/main.0ddc8f8c.js",
     "static/js/787.bca6b6ca.chunk.js": "/cammie/static/js/787.bca6b6ca.chunk.js",
     "index.html": "/cammie/index.html",
     "main.75d2249e.css.map": "/cammie/static/css/main.75d2249e.css.map",
-    "main.6c593529.js.map": "/cammie/static/js/main.6c593529.js.map",
+    "main.0ddc8f8c.js.map": "/cammie/static/js/main.0ddc8f8c.js.map",
     "787.bca6b6ca.chunk.js.map": "/cammie/static/js/787.bca6b6ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75d2249e.css",
-    "static/js/main.6c593529.js"
+    "static/js/main.0ddc8f8c.js"
   ]
 }
