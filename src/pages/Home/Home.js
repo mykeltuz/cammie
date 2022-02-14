@@ -26,12 +26,13 @@ function Home (props) {
       <h1 data-testid="home-page-title">Cammie</h1>
 
       <Webcam 
+        height='65%%'
         videoConstraints={videoConstraints}
       />
 
       <div className='device-info'>
         <p className='device-os-name'>
-          Device Model: {device_os_name}
+          Model: {device_os_name}
         </p>
       </div>
     </div>
