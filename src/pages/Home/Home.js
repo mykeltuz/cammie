@@ -14,7 +14,6 @@ function Home (props) {
   const [device_os_name, setDeviceOsname] = useState('Pristine OS')
 
   useEffect(() => {
-    // setDeviceOsname((deviceDetect()).osName)
     setDeviceOsname(osName)
   }, [])
 
@@ -27,14 +26,12 @@ function Home (props) {
       <h1 data-testid="home-page-title">Cammie</h1>
 
       <Webcam 
-        width='80%'
-        height='65%%'
         videoConstraints={videoConstraints}
       />
 
       <div className='device-info'>
         <p className='device-os-name'>
-          Model: {device_os_name}
+          Device Model: {device_os_name}
         </p>
       </div>
     </div>
