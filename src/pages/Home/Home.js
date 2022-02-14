@@ -26,7 +26,7 @@ function Home (props) {
       <h1 data-testid="home-page-title">Cammie</h1>
 
       <Webcam 
-        height='65%%'
+        height='65%'
         videoConstraints={videoConstraints}
       />
 
