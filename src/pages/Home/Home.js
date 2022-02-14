@@ -32,7 +32,7 @@ function Home (props) {
 
       <div className='device-info'>
         <p className='device-os-name'>
-          Model: {device_os_name}
+          Model - {device_os_name}
         </p>
       </div>
     </div>
