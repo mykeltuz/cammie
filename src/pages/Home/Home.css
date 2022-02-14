@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: scroll;
+  overflow-x: hidden;
+  background: linear-gradient(104.72deg, #50CAFF 3.72%, #0478FF 97.64%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h1 {
+  color: #fff;
+}
+
+.device-info {
+  width: auto;
+  padding: 0px 20px;
+  border-radius: 9px;
+  background-color: #fff;
+  margin: 20px 0px;
+}
+
+
+.device-os-name {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+@media screen and (min-width: 1025px) {
+
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding-top: 100px 100px;
+  }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+}
